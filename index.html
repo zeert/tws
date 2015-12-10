@@ -1,4 +1,4 @@
-
+<!-- TODO: Revisar codigo y optimizar carga de hojas de estilo -->
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
 
-        <title>TWS | Home</title>
+        <title>TWS | Chile</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,6 +25,7 @@
 		<![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
     </head>
     <body>
     	<div class="loader">
@@ -45,8 +46,8 @@
 								<span class="alt-font"><i class="icon icon_mail"></i> contacto@tws.cl</span>
 
 								<div class="pull-right">
-									<a href="login.html" class="btn btn-primary login-button btn-xs">Inicio Sesion</a>
-									<a href="#" class="btn btn-primary btn-filled btn-xs">Registrar</a>
+									<!--<a href="login.html" class="btn btn-primary login-button btn-xs">Inicio Sesion</a>
+									<a href="#" class="btn btn-primary btn-filled btn-xs">Registrar</a>-->
 									<a href="#" class="language"><img alt="English" src="img/english.png"></a>
 								</div>
 							</div>
@@ -64,15 +65,15 @@
 
 						<div class="col-sm-9 col-md-10 columns">
 							<ul class="menu">
-								<li class=""><a href="#">Home</a>
+								<li class=""><a href="#empresa">Nosotros</a>
 								</li>
-								<li class=""><a href="#">Empresa</a>
+								<li class=""><a href="#servicios">Servicios</a>
 								</li>
-								<li class=""><a  href="#">Noticias</a>
+								<li class=""><a  href="#asociaciones">Asociaciones</a>
 								</li>
-								<li class=""><a href="#">Clientes</a>
+								<li class=""><a href="#clientes">Clientes</a>
 								</li>
-								<li class=""><a href="#">Contacto</a>
+								<li class=""><a href="#contacto">Contacto</a>
 								</li>
 							</ul>
 
@@ -104,15 +105,14 @@
 				<ul class="slides">
 					<li class="overlay">
 						<div class="background-image-holder parallax-background">
-							<img class="background-image" alt="Background Image" src="img/hero9.jpg">
+							<img class="background-image" alt="Background Image" src="img/blur2.jpg">
 						</div>
 
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio eaque rem officiis aliquam</h1>
-									<a target="_blank" href="http://www.zetalabs.cl" class="btn btn-primary btn-white">Contactenos</a>
-									<a href="#" class="btn btn-primary btn-filled">Inicie Sesion</a>
+									<h1 class="text-white">La informacion , donde la necesite.</h1>
+									<a href="#" class="btn btn-primary btn-white">Contactenos</a>
 								</div>
 							</div>
 						</div><!--end of container-->
@@ -122,13 +122,13 @@
 
 					<li class="overlay">
 						<div class="background-image-holder parallax-background">
-							<img class="background-image" alt="Background Image" src="img/hero7.jpg">
+							<img class="background-image" alt="Background Image" src="img/hero19.jpg">
 						</div>
 
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore at, quam perspiciatis</h1>
+									<h1 class="text-white">La seguridad que brinda el conocimiento.</h1>
 								</div>
 							</div>
 						</div><!--end of container-->
@@ -136,13 +136,13 @@
 
 					<li class="overlay">
 						<div class="background-image-holder parallax-background">
-							<img class="background-image" alt="Background Image" src="img/hero9.jpg">
+							<img class="background-image" alt="Background Image" src="img/hero1.jpg">
 						</div>
 
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, nostrum deleniti totam.</h1>
+									<h1 class="text-white">Su negocio, con alcances globales</h1>
 								</div>
 							</div>
 						</div><!--end of container-->
@@ -154,33 +154,32 @@
 				<div class="container">
 					<div class="row">
 
-							<div class="col-md-4 col-sm-6 clearfix">
+							<div class="col-md-3 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-document"></i>
+									<i class="icon icon-document" style="position: relative;left: 30%"></i>
 									<h6 class="text-white">Informes Comerciales</h6>
-									<p class="text-white">
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
-									</p>
 								</div><!--end of feature-->
 							</div>
 
-							<div class="col-md-4 col-sm-6 clearfix">
+							<div class="col-md-3 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-linegraph"></i>
-									<h6 class="text-white">Estadisticas de Gestion</h6>
-									<p class="text-white">
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
-									</p>
+									<i class="icon icon-envelope" style="position: relative;left: 20%"></i>
+									<h6 class="text-white">Cobranza Judicial</h6>
 								</div><!--end of feature-->
 							</div>
 
-							<div class="col-md-4 col-sm-6 clearfix">
+							<div class="col-md-3 col-sm-6 clearfix">
 								<div class="feature feature-icon-small">
-									<i class="icon icon-target"></i>
-									<h6 class="text-white">Captacion de Clientes</h6>
-									<p class="text-white">
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labor.
-									</p>
+									<i class="icon icon-briefcase" style="position: relative;left: 25%"></i>
+									<h6 class="text-white">Cobranza extrajudicial</h6>
+								</div><!--end of feature-->
+							</div>
+
+							<div class="col-md-3 col-sm-6 clearfix">
+								<div class="feature feature-icon-small">
+									<i class="icon icon-documents" style="position: relative;left: 30%"></i>
+									<h6 class="text-white">Cobranza Administrativa</h6>
+
 								</div><!--end of feature-->
 							</div>
 
@@ -188,11 +187,13 @@
 
 				</div><!--end of container-->
 			</section>
+			<div id="empresa"></div>
 
 			<section class="side-image text-heavy clearfix">
+				<br><br>
 				<div class="image-container col-md-5 col-sm-3 pull-left">
 					<div class="background-image-holder">
-						<img class="background-image" alt="Background Image" src="img/side2.jpg">
+						<img class="background-image" alt="Background Image" src="img/layer1.jpg">
 					</div>
 				</div>
 
@@ -203,13 +204,13 @@
 						<div class="col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4 content clearfix">
 							<h1>Nuestra Empresa</h1>
 							<p class="lead">
-								En 1993 se fund&oacute; TWS S.A. con el objetivo de entregar servicios de informaci&oacute;n comercial a nivel global.   Cumpliendo este prop&oacute;sito se form&oacute; una red internacional de informaci&oacute;n crediticia que al d&iacute;a de hoy es capaz de cubrir las necesidades de nuestros clientes en Chile y el exterior.
+								En 1993 se fund&oacute; <b>TWS S.A.</b> con el objetivo de entregar servicios de informaci&oacute;n comercial a nivel global.   Cumpliendo este prop&oacute;sito se form&oacute; una red internacional de informaci&oacute;n crediticia que al d&iacute;a de hoy es capaz de cubrir las necesidades de nuestros clientes en Chile y el exterior.
 							</p>
 							<p class="lead">
 								Nuestros asociados a trav&eacute;s del mundo pueden beneficiarse de un servicio internacional, serio y comprometido.
 							</p>
 							<p class="lead">
-								Conjuntamente  TWS S.A. cre&oacute; la divisi&oacute;n de Cobranzas comerciales de Deuda Vencida,  y se adicion&oacute; el sistema  que denominamos Cobranza Administrativa o Servicio de deuda directa.
+								Conjuntamente  <b></b>TWS S.A. cre&oacute; la divisi&oacute;n de Cobranzas comerciales de Deuda Vencida,  y se adicion&oacute; el sistema  que denominamos Cobranza Administrativa o Servicio de deuda directa.
 							</p>
 							<a href="" class="btn btn-primary">Contactanos</a><br>
 						</div>
@@ -218,9 +219,9 @@
 
 				</div>
 			</section>
-
+			<div id="servicios"></div>
 			<section class="duplicatable-content">
-
+				<br><br>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 text-center">
@@ -229,57 +230,63 @@
 					</div><!--end of row-->
 
 					<div class="row">
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-genius"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Servicios de Cobranza</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div><!--end 6 col-->
-
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-linegraph"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Informes Comerciales</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div><!--end 6 col-->
-
-						<div class="col-sm-6">
-							<div class="feature feature-icon-large">
-								<div class="pull-left">
-									<i class="icon icon-tools-2"></i>
-								</div>
-								<div class="pull-right">
-									<h5>Reportes</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
-									</p>
-								</div>
-							</div>
-						</div><!--end 6 col-->
-
-						<div class="col-sm-6">
+						<div class="col-sm-12">
 							<div class="feature feature-icon-large">
 								<div class="pull-left">
 									<i class="icon icon-desktop"></i>
 								</div>
 								<div class="pull-right">
-									<h5>Gestion de Cartera</h5>
-									<p>
-										Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.
+									<h5>INFORMES COMERCIALES</h5>
+									<p style="text-align: justify">
+										<b>INFORMACION COMERCIAL</b>, &oacute; <b>INFORMES DE CREDITO</b>, es informaci&oacute;n dise&ntilde;ada para entregar evaluaciones comerciales  de empresas, conteniendo NIVEL DE RIESGO, RECOMENDACIÓN DE CREDITO,  tanto de empresas en Chile como en  el exterior.
+										A trav&eacute;s de nuestra asociaci&oacute;n con <b>DUN & BRADSTREET INTERNATIONAL</b>, podemos brindar el  servicio internacional on line, a nuestros clientes.
+
+									</p>
+								</div>
+							</div>
+						</div><!--end 6 col-->
+
+						<div class="col-sm-12">
+							<div class="feature feature-icon-large">
+								<div class="pull-left">
+									<i class="icon icon-documents"></i>
+								</div>
+								<div class="pull-right">
+									<h5>COBRANZAS COMERCIALES</h5>
+									<p style="text-align: justify">
+										Esta división cuenta  con 3 departamentos:
+									<ol>
+									<li><b>Cobranza Administrativa o Servicio de Cobranzas de deuda directa</b>
+										<p style="text-align: justify">
+											Servicio de tercerización de cuentas no vencidas, que incluye despacho de
+											facturas, seguimiento a través de nuestro contact center, recaudación y
+											contabilización de la cobranza. Tiene como principal objetivo resguardar el
+											oportuno pago de sus clientes por las obligaciones contraídas con su empresa
+										</p>
+									</li>
+									<br>
+									<li><b>Cobranza Extrajudicial</b>
+										<p style="text-align: justify">
+											Servicio que se presta a nivel nacional e  internacional, ya que contamos con la red de TCM (Total Credit Managment) asociación mundial de empresas de cobranzas de la que somos socios fundadores.
+											<ul>
+												<li>Análisis de recuperación de cartera vencida</li>
+												<li>Recuperabilidad de las cuentas morosas antes de pensar en un proceso judicial de cobro</li>
+												<li>Negociación y reprogramación del pago de las deuda</li>
+												<li>Informes de avance periódicos</li>
+												<li>Certificación Tributaria de Castigo de Clientes</li>
+											</ul>
+										</p>
+									</li>
+									<br>
+									<li><b>Cobranza Judicial</b>
+										<p>
+											<ul>
+												<li>Asesoría legal, análisis de alternativas judiciales a seguir en instancias judiciales</li>
+												<li>Juicio ordinarios</li>
+											</ul>
+										</p>
+									</li>
+									</ol>
 									</p>
 								</div>
 							</div>
@@ -290,7 +297,7 @@
 
 			</section>
 
-			<section class="side-image clearfix">
+			<!--<section class="side-image clearfix">
 
 				<div class="container">
 					<div class="row">
@@ -339,10 +346,10 @@
 								</li>
 							</ul>
 
-							</div><!--end of row-->
+							</div>&lt;!&ndash;end of row&ndash;&gt;
 
 
-					</div><!--end of container-->
+					</div>&lt;!&ndash;end of container&ndash;&gt;
 				</div>
 
 				<div class="image-container col-md-5 col-sm-3 pull-right">
@@ -351,6 +358,70 @@
 					</div>
 				</div>
 
+			</section>-->
+			<div id="asociaciones"></div>
+			<section class="side-image clearfix">
+				<br><br>
+				<div class="image-container col-md-5 col-sm-4 pull-left">
+					<div class="background-image-holder">
+						<img class="background-image" alt="Background Image" src="img/hero8.jpg">
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-6 col-sm-7 col-sm-offset-5 content clearfix">
+							<h1>Contamos con un sin numero de <strong>Asociaciones</strong></h1>
+							<p class="lead">
+								En un mundo Globalizado como el actual nosotros trabajamos con multiples asociaciones que nos permiten fortalecer nuestra presencia tanto en Chile, como en el resto de la region.<br>Entre las mas importantes, podemos contar:</p>
+
+							<div class="row">
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-briefcase"></i>
+										</div>
+										<div class="feature-text">
+											<h6>DUN &amp; BRADSTREET INTERNATIONAL </h6>
+											<p>Somos Corresponsales y asociados desde el año 1996</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-calendar"></i>
+										</div>
+										<div class="feature-text">
+											<h6>TCM GROUP (Total Credit Management)</h6>
+											<p>&nbsp;Somos socios accionistas de TCM GROUP (Total Credit Managment) Asociación a nivel Internacional  de empresas de cobranzas.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 no-pad-left">
+									<div class="feature feature-icon-left">
+										<div class="icon-holder">
+											<i class="icon icon-chat"></i>
+										</div>
+										<div class="feature-text">
+											<h6>ACA (American Collectors Associations) </h6>
+											<p>Socios de ACA (American Collectors Associations) Asociación de empresas de cobranzas de Estados Unidos de Norteamérica.
+											</p>
+										</div>
+									</div>
+								</div>
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
 			</section>
 
 			<section class="clients-2">
@@ -383,7 +454,7 @@
 				</div><!--end of container-->
 			</section>
 
-			<section class="no-pad clearfix">
+			<!--<section class="no-pad clearfix">
 
 				<div class="col-md-6 col-sm-12 no-pad">
 
@@ -424,7 +495,64 @@
 					</div>
 				</div>
 
+			</section>-->
+
+			<!-- SECCION DE LOGIN PARA CLIENTES -->
+			<div id="clientes"></div>
+			<section class="no-pad login-page fullscreen-element">
+				<br><br>
+				<div class="background-image-holder">
+					<img class="background-image" alt="Poster Image For Mobiles" src="img/hero6.jpg">
+				</div>
+
+				<div class="container align-vertical">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+							<h1 class="text-white">Acceso Clientes</h1>
+							<div class="photo-form-wrapper clearfix">
+								<form>
+									<input class="form-email" type="text" placeholder="Direcci&oacute;n de Email">
+									<input class="form-password" type="password" placeholder="Clave de Acceso">
+									<input class="login-btn btn-filled" type="submit" value="Ingresar">
+								</form>
+							</div>
+							<br>
+							<a href="#" class="text-white">Olvid&oacute; su contrase&ntilde;a?<br></a>
+						</div>
+					</div>
+				</div>
 			</section>
+
+<!-- Seccion login Clientes -->
+
+			<!-- Seccion Mapa Contacto -->
+			<div id="contacto"></div>
+			<section class="map-overlay" src="">
+				<br><br>
+				<div class="map-holder">
+					<iframe src="https://maps.google.com/maps?hl=en&q=Puerta del sol 55, las condes, santiago&ie=UTF8&t=roadmap&z=15&iwloc=B&output=embed"></iframe>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center">
+							<div class="details-holder">
+								<div class="align-vertical">
+									<img alt="Logo" src="img/logo-dark.png">
+									<p>contacto@tws.cl</p>
+
+									<p>
+										Puerta del sol 55, Piso 8<br>
+										Santiago, Chile</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Seccion Mapa Contacto -->
+
 
 			<section>
 				<div class="container">
@@ -478,18 +606,38 @@
 		</div>
 
 		<script src="js/jquery.min.js"></script>
+		<script>
+
+		</script>
         <script src="js/jquery.plugin.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
         <script src="js/skrollr.min.js"></script>
         <script src="js/spectragram.min.js"></script>
         <script src="js/scrollReveal.min.js"></script>
         <script src="js/isotope.min.js"></script>
         <script src="js/twitterFetcher_v10_min.js"></script>
         <script src="js/lightbox.min.js"></script>
-        <script src="js/jquery.countdown.min.js"></script>
         <script src="js/scripts.js"></script>
+	<script>
+
+		$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
     </body>
 </html>
 
